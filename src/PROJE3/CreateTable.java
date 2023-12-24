@@ -9,7 +9,7 @@ public class CreateTable {
 	public static void main(String[] args) {
 		final String dbUrl="jdbc:mysql://localhost:3306/NESPRO";
 		 final String userName="root";
-		 final String password="Karatekin123";
+		 final String password="";
 		try (Connection connection = DriverManager.getConnection(dbUrl, userName, password)) {
            if (connection != null) {
                System.out.println("Veritabanına başarıyla bağlandı!");

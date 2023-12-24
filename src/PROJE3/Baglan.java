@@ -10,7 +10,7 @@ public class Baglan {
 	 {
 	 final String dbUrl="jdbc:mysql://localhost:3306/NESPRO";
 	 final String userName="root";
-	 final String password="Karatekin123";
+	 final String password="";
 	 return DriverManager.getConnection(dbUrl,userName,password);
 	 }
 	 public void showErrorMessage(SQLException exception)
@@ -21,7 +21,7 @@ public class Baglan {
 	 public static Connection bagkur() throws SQLException {
 		  String dbUrl="jdbc:mysql://localhost:3306/NESPRO";
 		  String userName="root";
-		 String password="Karatekin123";
+		 String password="";
 	        
 	        Connection connection = DriverManager.getConnection(dbUrl,userName,password);
 	        return connection;
